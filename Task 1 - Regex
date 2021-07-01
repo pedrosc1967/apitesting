@@ -1,0 +1,34 @@
+For following text:
+
+A fat cat was quite sad because he couldn't catch a rat. All the other cats were laughing so he was mad as a bat
+
+So the cat put a hat and went to search for a rat
+
+He was walking around the city searching for rats but he could only find old hats.
+
+He looked around and found a brat in stead of a rat
+
+"Cat o cat" - said the brat - "Give me some time and I'll find you a rat". "Not 1 rat even, but 25 rats or a
+
+100 of them I'll pull from your hat"
+
+ 
+
+Write regular expressions that would match:
+
+All 3 letter words and 3 digit numbers:
+\b[a-zA-Z]{3}\b
+
+
+
+Cat and cat
+
+cat, rat and bat words but not cats, rats, hat, hats, brat
+
+All sentences in double quotes
+
+All rat words at the end of a line
+
+All words with apostrophes (e.g. I'll)
+
+All words starting with a capital letter
